@@ -1,0 +1,95 @@
+# === Archivos de Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# === Carpetas de entorno / virtualenv ===
+.env/
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+
+# === Configuración local de IDE ===
+.vscode/
+.idea/
+*.iml
+
+# === Datos generados por el pipeline ===
+data/*.csv
+data/*.parquet
+data/*.json
+data/*.xlsx
+data/*.zip
+
+# No ignores el directorio, solo su contenido
+!data/.gitkeep
+
+# === Archivos temporales y de auditoría ===
+auditoria_proceso.csv
+auditoria_detalle.csv
+logs/
+*.log
+
+# === Archivos de pruebas / coverage ===
+.coverage
+htmlcov/
+.cache/
+pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# === Archivos del sistema operativo ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Airflow (si llegas a usarlo localmente) ===
+airflow/
+dags/__pycache__/
+dags/*.pyc
+airflow.db
+unittests.cfg
+
+# === Dependencias empaquetadas ===
+dist/
+build/
+*.whl
+*.tar.gz
+
+# === Configuración de logs o pipelines ===
+logs/
+output/
+tmp/
+
+# === Archivos personales o confidenciales ===
+*.env
+*.key
+*.pem
+*.crt
+*.csr
+*.conf
+*.ini
+
+# === Jupyter notebooks y checkpoints (si usas notebooks de validación) ===
+.ipynb_checkpoints/
+*.ipynb
+
+# === Archivos de sistema ===
+*.bak
+*.old
+*.orig
