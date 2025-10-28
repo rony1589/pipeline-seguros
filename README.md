@@ -9,7 +9,7 @@ Procesar archivos CSV diarios (`polizas_YYYYMMDD.csv` y `siniestros_YYYYMMDD.csv
 ---
 
 ## 🧱 Estructura
-
+```
 pipeline-seguros/
 ├── README.md
 ├── requirements.txt
@@ -26,7 +26,7 @@ pipeline-seguros/
 ├── test_generador.py
 ├── test_validacion.py
 └── test_transformaciones.py
-
+```
 ---
 
 ## Requisitos
@@ -40,10 +40,14 @@ pipeline-seguros/
 
 ```bash
 git clone https://github.com/rony1589/pipeline-seguros.git
+
 cd pipeline-seguros
+
 python -m venv .venv
+
 # En Git Bash:
 source .venv/Scripts/activate
+
 # En PowerShell:
 # .venv\Scripts\Activate.ps1
 
